@@ -14,3 +14,4 @@ export interface DAOAdvanced extends DAO {
   buscarPorNome<T>(nome: string): T;
 }
 
+//teste de att
