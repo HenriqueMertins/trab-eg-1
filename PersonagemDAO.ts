@@ -1,3 +1,4 @@
+import { Personagem } from "./Personagem";
 export interface PersonagemDAO {
   salvar<Personagem>(personagem: Personagem): Personagem;
 
