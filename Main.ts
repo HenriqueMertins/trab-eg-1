@@ -3,6 +3,7 @@ import { Guerreiro } from "./Guerreiro";
 import { Priest } from "./Padre";
 import { Personagem } from "./Personagem";
 import { Util } from "./Util";
+import { Archer } from "./Arqueiro";
 
 const teclado = prompt();
 
@@ -12,6 +13,7 @@ personagens.push(new Guerreiro("Ragnar"));
 personagens.push(new Priest("Quemedo"));
 personagens.push(new Guerreiro("Genghis Khan"));
 personagens.push(new Guerreiro("Alexandre, o Grande"));
+personagens.push(new Archer("Legolas"));
 
 while (true) {
   console.log(`===== Personagens vivos (${personagens.length}) =====`);
