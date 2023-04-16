@@ -7,7 +7,7 @@ export abstract class Personagem implements DAO {
     protected _forca: number,
     protected _habilidadeMental: number,
     protected _poderDeAtaque: number,
-    protected _esquiva: number,
+    protected _agilidade: number,
     protected _resistencia: number,
     protected _vidaAtual: number,
     protected _vidaMaxima: number
