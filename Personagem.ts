@@ -10,8 +10,7 @@ export abstract class Personagem implements DAO {
     protected _esquiva: number,
     protected _resistencia: number,
     protected _vidaAtual: number,
-    protected _vidaMaxima: number,
-    protected _agilidade: number
+    protected _vidaMaxima: number
   ) {}
   salvar<Personagem>(objeTo: Personagem): Personagem {
     throw new Error("Method not implemented.");
